@@ -1,5 +1,6 @@
 ---
 title: 图
+mathjax: true
 ---
 
 # 图
