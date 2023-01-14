@@ -1,7 +1,7 @@
 ---
 title: 白水村行政区提取与dem裁剪
 mathjax: true
-cover: https://markdown-img-1311240910.cos.ap-nanjing.myqcloud.com/image-20221022213255663.png
+cover: http://image.viotbery.cloud/image-20221022213255663.png
 categories: GIS实例练习
 ---
 # 操作目的
@@ -43,7 +43,7 @@ categories: GIS实例练习
 
 3. 观察到获得的白水村边界内存在多余的线，并且存在缝隙。距离较小使用【合并】或【对齐】工具将边界对齐成一体
 
-   <img src="https://markdown-img-1311240910.cos.ap-nanjing.myqcloud.com/image-20221022212932079.png" alt="image-20221022212932079" style="zoom: 25%;" /><img src="https://markdown-img-1311240910.cos.ap-nanjing.myqcloud.com/image-20221022212947873.png" alt="image-20221022212947873" style="zoom:25%;" /><img src="https://markdown-img-1311240910.cos.ap-nanjing.myqcloud.com/image-20221022213017815.png" alt="image-20221022213017815" style="zoom:25%;" />
+   <img src="http://image.viotbery.cloud/image-20221022212932079.png" alt="image-20221022212932079" style="zoom: 25%;" /><img src="http://image.viotbery.cloud/image-20221022212947873.png" alt="image-20221022212947873" style="zoom:25%;" /><img src="http://image.viotbery.cloud/image-20221022213017815.png" alt="image-20221022213017815" style="zoom:25%;" />
 
 4. 使用【镶嵌至新栅格】将两幅dem数据镶嵌成一幅新栅格。
 
@@ -51,7 +51,7 @@ categories: GIS实例练习
    >
    > - 镶嵌栅格时需注意【像素类型】，观察原DEM值域范围选择对应的像素类型，本数据值域在400-1722之间，适用于16位无符号。若选择其他类型可能会造成结果不正确（无法显示）。
    >
-   > <img src="https://markdown-img-1311240910.cos.ap-nanjing.myqcloud.com/image-20221022213255663.png" alt="image-20221022213255663" style="zoom:25%;" />
+   > <img src="http://image.viotbery.cloud/image-20221022213255663.png" alt="image-20221022213255663" style="zoom:25%;" />
    >
    > - 若导出到地理数据库中，则导出栅格名称**不能添加扩展名**。
 

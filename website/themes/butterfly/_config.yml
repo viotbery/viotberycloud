@@ -80,20 +80,20 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://markdown-img-1311240910.cos.ap-nanjing.myqcloud.com/avatar.jpg
+  img: http://image.viotbery.cloud/avatar.jpg
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://markdown-img-1311240910.cos.ap-nanjing.myqcloud.com/background1.jpg
+index_img: http://image.viotbery.cloud/background1.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
 
 # The banner image of archive page
-archive_img: https://markdown-img-1311240910.cos.ap-nanjing.myqcloud.com/background1.jpg
+archive_img: http://image.viotbery.cloud/background1.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
